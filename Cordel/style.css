@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+   --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+   --fonte02:"Sriracha", cursive;
+   --fonte03: "Passion One", sans-serif;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(133, 13, 13);
+}
+
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+header > h1{
+    font-variant: small-caps;
+    font-family: var(--fonte01);
+    font-size: 3em;
+}
+
+section{
+   padding: 80px ;
+   padding-left: 0%;
+   font-family: var(--fonte02);
+   font-size: 2em;
+
+}
+
+section.normal{
+     padding: 10%;
+
+}
+
+section.foto > p{
+    background-color: rgba(128, 128, 128, 0.43) ;
+    padding: 10%;
+}
+
+section.foto{
+    padding-bottom: 3px;
+    background-color: rgb(255, 221, 221);
+    box-shadow: inset rgba(0, 0, 0, 0.627);
+    background-attachment: fixed;
+}
+
+section#foto01{
+    background-image: url(assets/Ze\ pilintra\ made\ by\ Rainha\ ♡.jpg);
+}
+
+section#foto02{
+    background-image: url(assets/images.jpg);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
